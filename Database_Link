@@ -1,7 +1,13 @@
 Dataset Description:
-The project uses a custom dataset of face images for the Face Mask Detection task. The images are categorized into two classes:
-1. With Mask
-2. Without Mask
+The dataset consists of 901 images belonging to two classes:
+- With Mask: 494 images
+- Without Mask: 407 images
+
+The dataset was split into training and validation sets:
+- Training images: 722
+- Validation images: 179
+
+Images were resized and normalized before training. Data generators were used for efficient loading and preprocessing.
 
 The dataset contains images collected from multiple sources and includes varied lighting, orientations, and real-world scenarios for better generalization.
 
